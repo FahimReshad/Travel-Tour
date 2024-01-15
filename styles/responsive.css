@@ -1,0 +1,113 @@
+@media screen and (max-width: 600px) {
+    body{
+        /* max-width: 600px; */
+      
+       
+    }
+    header{
+        /* border: 2px solid turquoise; */
+        width: 90%;
+        /* height: 90%; */
+        padding: 10px;
+        /* padding: 20px; */
+    }
+    .banner-container{
+        padding: 10px;
+    }
+    .banner-container .banner-title{
+        font-size: 2rem;
+    }
+    .input-feild{
+        flex-direction: column;
+    }
+    .input-feild input{
+        width: 250px;
+        
+    }
+    button{
+        width: 260px;
+    }
+    .popular-tours{
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+    .popular-tours-text{
+        width: 100%;
+        padding-right: 0;
+    }
+    .popular-tours-text-title{
+        font-size: 2rem;
+    }
+    .primary-descriptions{
+        width: 320px;
+    }
+    .read-more-btn{
+        width: 180px;
+        text-align: center;
+    }
+    .popular-tours-image{
+        width: 100%;
+        margin-top: 20px;
+    }
+    /* choose your destination section responsive  */
+    .destination{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .destination-header{
+        margin-top: 20px;
+    }
+    .destination-header h1{
+        font-size: 1.2rem;
+    }
+    .destination-header p{
+        width: 300px;
+    }
+    .destination-image{
+       grid-template-columns: 1fr;
+    }
+    .destination-image img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .destination-images-1{
+        width: 100%;
+        /* border: 2px solid tan; */
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+    
+    }
+    .destination-images-2{
+        /* border: 2px solid firebrick; */
+        grid-column: 1/span 1;
+        grid-row: 2/span 1;
+    
+    }
+    .destination-images-3{
+        width: 100%;
+        grid-column: 1/span 1;
+        grid-row: 3/span 1;
+    }
+    .destination-images-4{
+       grid-column: 1/span 1; 
+       grid-row: 4/span 1;
+    }
+    .destination-images-5{
+
+        grid-column: 1/span 1;
+        grid-row: 5/span 1;
+    }
+    .destination-images-6{
+        /* width: 100%; */
+        grid-column: 1/span 1;
+        grid-row: 6/span 1;
+    }
+    .destination-images-7{
+        grid-column: 1/span 1;
+        grid-row: 7/span 1;
+    }
+    
+
+
+}
