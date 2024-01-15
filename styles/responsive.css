@@ -33,7 +33,7 @@
         
     }
     .popular-tours-text{
-        width: 100%;
+        width: 90%;
         padding-right: 0;
     }
     .popular-tours-text-title{
@@ -42,8 +42,9 @@
     .primary-descriptions{
         width: 320px;
     }
-    .read-more-btn{
-        width: 180px;
+    .primary-btn{
+        width: 160px;
+        height: 50px;
         text-align: center;
     }
     .popular-tours-image{
@@ -92,22 +93,103 @@
     .destination-images-4{
        grid-column: 1/span 1; 
        grid-row: 4/span 1;
+       width: 100%;
     }
     .destination-images-5{
-
         grid-column: 1/span 1;
         grid-row: 5/span 1;
+       
     }
     .destination-images-6{
-        /* width: 100%; */
         grid-column: 1/span 1;
         grid-row: 6/span 1;
+        width: 100%;
     }
     .destination-images-7{
         grid-column: 1/span 1;
         grid-row: 7/span 1;
     }
-    
+    /* why choose us section  */
+    .services{
+        margin-top: 10px;
+        padding: 10px;
 
+    } 
+    .services-header h2{
+        font-size: 1.4rem;
+    }
+    .services-header p{
+        width: 280px;
+    }
+    .services-card{
+        margin-top: 20px;
+        grid-template-columns: 1fr;
+    }
+    .services-card-1{
+        grid-column: 1/span 1;
+        padding: 10px;
+    }
+    .services-card-2{
+        grid-column: 1/span 1;
+        padding: 10px;
+
+    }
+    .services-card-3{
+        grid-column: 1/span 1;
+        padding: 10px;
+    }
+    /* perfect place section  */
+    .perfect-place{
+        flex-direction: column;
+        padding: 10px;
+        gap: 15px;
+        margin: 10px 0;
+    }
+    .perfect-place-container{
+        width: 90%;
+    }
+    .perfect-place-container h1{
+        font-size: 1.25rem;
+    }
+    .perfect-place-video{
+        width: 100%;
+    }
+    .perfect-place-video video{
+        width: 95%;
+    }
+    .perfect-place-container h1{
+        margin: 0;
+    }
+    /* newsletter section  */
+    .newsletter-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .newsletter-box input{
+        /* width: 300px; */
+        width: 93%;
+    }
+    .newsletter-box button{
+        /* width: 340px; */
+        width: 100%;
+    }
+    .newsletter-box{
+        width: 90%;
+        padding: 20px;
+    }
+    .newsletter-box-image{
+        width: 100%;
+    }
+    .save-up{
+        width: 50%;
+        height: 50px;
+        padding-top: 5px;
+    }
+    .save-up p{
+        font-size: 1rem;
+    }
+    .save-up h5{
+        font-size: 1rem;
+    }
 
 }
