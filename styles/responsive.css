@@ -1,6 +1,9 @@
 @media screen and (max-width: 600px) {
     body{
         /* max-width: 600px; */
+        *{
+            margin: 0 auto;
+        }
       
        
     }
@@ -37,10 +40,11 @@
         padding-right: 0;
     }
     .popular-tours-text-title{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .primary-descriptions{
-        width: 320px;
+        width: 220px;
+        /* width: 70%; */
     }
     .primary-btn{
         width: 160px;
@@ -150,12 +154,17 @@
     }
     .perfect-place-container h1{
         font-size: 1.25rem;
+        line-height: 30px;
+    }
+    .perfect-place-container ul li{
+        font-weight: 400px;
+        padding-right: 10px;
     }
     .perfect-place-video{
-        width: 100%;
+        width: 95%;
     }
     .perfect-place-video video{
-        width: 95%;
+        width: 100%;
     }
     .perfect-place-container h1{
         margin: 0;
@@ -174,8 +183,9 @@
         width: 100%;
     }
     .newsletter-box{
-        width: 90%;
+        width: 85%;
         padding: 20px;
+        /* margin-left: 5px; */
     }
     .newsletter-box-image{
         width: 100%;
@@ -191,5 +201,23 @@
     .save-up h5{
         font-size: 1rem;
     }
-
+                  /* footer section responsive */
+    footer{
+        padding: 30px;
+    margin-top: 30px;
+    width: 80%;
+    }
+    .footer-header{
+        width: 60%;
+        font-size: 0.75rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-content p{
+        margin-top: 20px;
+    }
+    .footer-logos .fa-brands{
+        width: 15%;
+        margin-bottom: 40px;
+    }
 }
