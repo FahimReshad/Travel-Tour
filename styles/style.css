@@ -6,7 +6,7 @@
     /* border: 2px solid teal; */
     margin: 0 auto;
 }
-header, main{
+.banner, main{
     max-width: 1620px;
 }
 .primary-description{
@@ -19,7 +19,59 @@ header, main{
     width: 180px;
 }
                              /* header styles  */
-header{
+.nav-title{
+    display: flex;
+    /* border: 2px solid tomato; */
+    /* margin: 20px auto; */
+    justify-content: center;
+    align-items:center;
+   gap: 20px;
+   
+    
+    
+}
+.nav-title-header{
+    color: #131318;
+font-size: 2.25rem;
+font-weight: 800;
+}
+.nav-travel{
+    color: #FF5400;
+}
+.nav-anchor a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.25rem;
+    margin-left: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 80px;
+}
+.icons{
+    display: none;
+}
+.nav-title img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             /* banner styles  */
+.banner{
     border-radius: 16px;
     /* max-height: 100%; */
     background-image: url('../Images/banner.png');
@@ -258,26 +310,189 @@ grid-column: 4/span 6 ;
     font-weight: 800;
     margin: 20px 0;
 }
-        /* Deals & Discounts section style  */
-/* .discounts-1{
-    display: grid;
-    grid-template-rows:( repeat(3,1fr)) ;
-border: 2px solid tan;
-padding: 20px 40px;
-}       
-.discounts-1 .fa-solid{
-    color: #FF5400;
+        /* /* Deals & Discounts section style  * */
+
+
+.discounts-heading{
+    text-align: center;
+    margin: 100px auto;
+    width: 643px;
 }
-.discounts-description h2{
+.discounts-heading h1{
     color: #131318;
-font-size: 1.5rem;
+font-size: 2.5rem;
+font-weight: 800;
+margin-bottom: 30px;
+}
+
+
+
+
+
+
+.discounts-container-1{
+    background-image: url('../Images/discounts-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 45vh;
+   border: 2px solid turquoise;
+   padding-top: 250px;
+   position: relative;
+   margin: 50px 0;
+   border-radius: 10px;
+}
+.discounts-container-1 img{
+    width: 100%;
+    height: 100%;
+}
+.discounts-1-content{
+    border: 2px solid tomato;
+    width: 40%;
+    padding: 60px;
+    position: absolute;
+    bottom: 125px;
+    right: 80px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px); 
+}
+.discounts-1-content-header{
+    margin-right: 50px;
+}
+.discounts-1-content-header .fa-solid{
+color: #FF5400;
+margin-left: 30px;
+
+}
+.discounts-1-content-title{
+    margin-left: 30px;
+}
+.discounts-1-content-title h2{
+    padding: 30px 0;
+    color: #131318;
+font-size: 2rem;
 font-weight: 800;
 }
-.discounts-description{
-    width: 452px;
-    color: #5A5A5D;
-    line-height: 26px;
-} */
+.discounts-1-content-title h5{
+    color: #FF5400;
+font-size: 1.5rem;
+font-weight: 800;
+padding: 30px 0;
+}
+
+
+.discounts-container-2{
+    background-image: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 45vh;
+   border: 2px solid turquoise;
+   padding-top: 250px;
+   position: relative;
+   margin: 50px 0;
+   border-radius: 10px;
+}
+.discounts-container-2 img{
+    width: 100%;
+    height: 100%;
+}
+.discounts-2-content{
+    border: 2px solid tomato;
+    width: 40%;
+    padding: 60px;
+    position: absolute;
+    bottom: 125px;
+    left: 80px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px); 
+}
+
+.discounts-2-content-header{
+    margin-right: 50px;
+}
+.discounts-2-content-header .fa-solid{
+color: #FF5400;
+margin-left: 30px;
+
+}
+.discounts-2-content-title{
+    margin-left: 30px;
+}
+.discounts-2-content-title h2{
+    padding: 30px 0;
+    color: #131318;
+font-size: 2rem;
+font-weight: 800;
+}
+.discounts-2-content-title h5{
+    color: #FF5400;
+font-size: 1.5rem;
+font-weight: 800;
+padding: 30px 0;
+}
+
+
+.discounts-container-3{
+    background-image: url('../Images/discounts-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 45vh;
+   border: 2px solid turquoise;
+   padding-top: 250px;
+   position: relative;
+   margin: 50px 0;
+   border-radius: 10px;
+}
+.discounts-container-3 img{
+    width: 100%;
+    height: 100%;
+}
+.discounts-3-content{
+    border: 2px solid tomato;
+    width: 40%;
+    padding: 60px;
+    position: absolute;
+    bottom: 125px;
+    right: 80px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px); 
+}
+.discounts-3-content-header{
+    margin-right: 50px;
+}
+.discounts-3-content-header .fa-solid{
+color: #FF5400;
+margin-left: 30px;
+
+}
+.discounts-3-content-title{
+    margin-left: 30px;
+}
+.discounts-3-content-title h2{
+    padding: 30px 0;
+    color: #131318;
+font-size: 2rem;
+font-weight: 800;
+}
+.discounts-3-content-title h5{
+    color: #FF5400;
+font-size: 1.5rem;
+font-weight: 800;
+padding: 30px 0;
+}
+
+
                               /* perfect place section styles  */
 .perfect-place{
     margin: 50px 0;

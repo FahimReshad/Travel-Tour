@@ -7,7 +7,40 @@
       
        
     }
-    header{
+   nav{
+    margin: 10px auto;
+   }
+    .nav-title{
+      margin-left: -50px;
+    }
+    .nav-title-header{
+        font-size: 1rem;
+    }
+    .nav-anchor a{
+        display: none;
+
+    }
+    .icons{
+        position: absolute;
+        float: right;
+        display: block;
+        right: 20px;
+        top: 15px;
+    }
+    .nav-anchor{
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-title img {
+        width: 0%;
+    }
+
+
+
+
+
+
+    .banner{
         /* border: 2px solid turquoise; */
         width: 90%;
         /* height: 90%; */
@@ -24,11 +57,11 @@
         flex-direction: column;
     }
     .input-feild input{
-        width: 250px;
+        width: 230px;
         
     }
     button{
-        width: 260px;
+        width: 245px;
     }
     .popular-tours{
         flex-direction: column;
@@ -209,7 +242,7 @@
     }
     .footer-header{
         width: 60%;
-        font-size: 0.75rem;
+        font-size: 0.5rem;
         justify-content: center;
         align-items: center;
     }
@@ -220,4 +253,87 @@
         width: 15%;
         margin-bottom: 40px;
     }
+                /* deals & discounts section  */
+    .discounts-heading{
+        width: 70%;
+        margin: 10px auto;
+    }
+    .discounts-heading h1{
+        font-size: 1.5rem;
+        
+    }
+
+    .discounts-container-1, .discounts-container-3, .discounts-container-2 {
+        width: 93%;
+        height: 35vh;
+        object-fit: cover;
+     margin-left: 5px;
+    }
+    .discounts-container-1 img, .discounts-container-3 img, .discounts-container-2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .discounts-1-content, .discounts-3-content{
+        width: 80%;
+        padding: 20px;
+        padding-right: 5px;
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+    }
+    .discounts-2-content{
+        width: 80%;
+        padding: 20px;
+        padding-right: 5px;
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+    }
+
+    .discounts-1-content-header, .discounts-3-content-header,
+     .discounts-2-content-header{
+        /* margin-right: 10px; */
+        margin-top: 10px;
+    }
+    .discounts-1-content-header .fa-solid, .discounts-3-content-header .fa-solid,
+    .discounts-2-content-header .fa-solid{
+    color: #FF5400;
+    margin-left: 18px;
+    font-size: 1rem;
+    
+    }
+    .discounts-1-content-title, discounts-3-content-title, .discounts-2-content-title{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .discounts-1-content-title h2, .discounts-3-content-title h2, 
+    .discounts-2-content-title h2{
+        padding: 5px 0;
+        color: #131318;
+    font-size: 1rem;
+    font-weight: 800;
+    }
+    .discounts-1-content-title h5, .discounts-3-content-title h5, 
+    .discounts-2-content-title h5{
+        color: #FF5400;
+    font-size: 1rem;
+    /* font-weight: 800; */
+    padding: 5px 0;
+
+    }
+    .discounts-1-content-title button, .discounts-3-content-title button, 
+    .discounts-2-content-title button{
+        width: 50%;
+        height: 100%;
+        font-size: 1rem;
+    }
+
+
+    .discounts-2-content-title{
+
+    }
+
+
+
 }
