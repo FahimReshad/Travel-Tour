@@ -1,11 +1,8 @@
 @media screen and (max-width: 600px) {
     body{
-        /* max-width: 600px; */
-        *{
-            margin: 0 auto;
-        }
-      
-       
+    *{
+       margin: 0 auto;
+     }
     }
    nav{
     margin: 10px auto;
@@ -18,7 +15,6 @@
     }
     .nav-anchor a{
         display: none;
-
     }
     .icons{
         position: absolute;
@@ -34,18 +30,10 @@
     .nav-title img {
         width: 0%;
     }
-
-
-
-
-
-
+                           /* banner section  */
     .banner{
-        /* border: 2px solid turquoise; */
         width: 90%;
-        /* height: 90%; */
         padding: 10px;
-        /* padding: 20px; */
     }
     .banner-container{
         padding: 10px;
@@ -57,16 +45,14 @@
         flex-direction: column;
     }
     .input-feild input{
-        width: 230px;
-        
+        width: 230px;      
     }
     button{
         width: 245px;
     }
     .popular-tours{
         flex-direction: column;
-        padding: 10px;
-        
+        padding: 10px;    
     }
     .popular-tours-text{
         width: 90%;
@@ -77,7 +63,6 @@
     }
     .primary-descriptions{
         width: 220px;
-        /* width: 70%; */
     }
     .primary-btn{
         width: 160px;
@@ -88,7 +73,7 @@
         width: 100%;
         margin-top: 20px;
     }
-    /* choose your destination section responsive  */
+                   /* choose your destination section responsive  */
     .destination{
         margin-top: 10px;
         padding: 10px;
@@ -111,16 +96,12 @@
     }
     .destination-images-1{
         width: 100%;
-        /* border: 2px solid tan; */
         grid-column: 1/span 1;
         grid-row: 1/span 1;
-    
     }
     .destination-images-2{
-        /* border: 2px solid firebrick; */
         grid-column: 1/span 1;
-        grid-row: 2/span 1;
-    
+        grid-row: 2/span 1; 
     }
     .destination-images-3{
         width: 100%;
@@ -134,8 +115,7 @@
     }
     .destination-images-5{
         grid-column: 1/span 1;
-        grid-row: 5/span 1;
-       
+        grid-row: 5/span 1;    
     }
     .destination-images-6{
         grid-column: 1/span 1;
@@ -146,11 +126,10 @@
         grid-column: 1/span 1;
         grid-row: 7/span 1;
     }
-    /* why choose us section  */
+                              /* why choose us section  */
     .services{
         margin-top: 10px;
         padding: 10px;
-
     } 
     .services-header h2{
         font-size: 1.4rem;
@@ -169,100 +148,19 @@
     .services-card-2{
         grid-column: 1/span 1;
         padding: 10px;
-
     }
     .services-card-3{
         grid-column: 1/span 1;
         padding: 10px;
     }
-    /* perfect place section  */
-    .perfect-place{
-        flex-direction: column;
-        padding: 10px;
-        gap: 15px;
-        margin: 10px 0;
-    }
-    .perfect-place-container{
-        width: 90%;
-    }
-    .perfect-place-container h1{
-        font-size: 1.25rem;
-        line-height: 30px;
-    }
-    .perfect-place-container ul li{
-        font-weight: 400px;
-        padding-right: 10px;
-    }
-    .perfect-place-video{
-        width: 95%;
-    }
-    .perfect-place-video video{
-        width: 100%;
-    }
-    .perfect-place-container h1{
-        margin: 0;
-    }
-    /* newsletter section  */
-    .newsletter-container{
-        flex-direction: column;
-        padding: 20px;
-    }
-    .newsletter-box input{
-        /* width: 300px; */
-        width: 93%;
-    }
-    .newsletter-box button{
-        /* width: 340px; */
-        width: 100%;
-    }
-    .newsletter-box{
-        width: 85%;
-        padding: 20px;
-        /* margin-left: 5px; */
-    }
-    .newsletter-box-image{
-        width: 100%;
-    }
-    .save-up{
-        width: 50%;
-        height: 50px;
-        padding-top: 5px;
-    }
-    .save-up p{
-        font-size: 1rem;
-    }
-    .save-up h5{
-        font-size: 1rem;
-    }
-                  /* footer section responsive */
-    footer{
-        padding: 30px;
-    margin-top: 30px;
-    width: 80%;
-    }
-    .footer-header{
-        width: 60%;
-        font-size: 0.5rem;
-        justify-content: center;
-        align-items: center;
-    }
-    .footer-content p{
-        margin-top: 20px;
-    }
-    .footer-logos .fa-brands{
-        width: 15%;
-        margin-bottom: 40px;
-    }
-                /* deals & discounts section  */
+                     /* deals & discounts section  */
     .discounts-heading{
         width: 70%;
         margin: 10px auto;
     }
     .discounts-heading h1{
-        font-size: 1.5rem;
-        
+        font-size: 1.5rem;      
     }
-
     .discounts-container-1, .discounts-container-3, .discounts-container-2 {
         width: 93%;
         height: 35vh;
@@ -290,18 +188,15 @@
         bottom: 10px;
         left: 20px;
     }
-
     .discounts-1-content-header, .discounts-3-content-header,
      .discounts-2-content-header{
-        /* margin-right: 10px; */
         margin-top: 10px;
     }
     .discounts-1-content-header .fa-solid, .discounts-3-content-header .fa-solid,
     .discounts-2-content-header .fa-solid{
     color: #FF5400;
     margin-left: 18px;
-    font-size: 1rem;
-    
+    font-size: 1rem; 
     }
     .discounts-1-content-title, discounts-3-content-title, .discounts-2-content-title{
         margin-left: 10px;
@@ -318,9 +213,7 @@
     .discounts-2-content-title h5{
         color: #FF5400;
     font-size: 1rem;
-    /* font-weight: 800; */
     padding: 5px 0;
-
     }
     .discounts-1-content-title button, .discounts-3-content-title button, 
     .discounts-2-content-title button{
@@ -328,12 +221,86 @@
         height: 100%;
         font-size: 1rem;
     }
-
-
     .discounts-2-content-title{
-
     }
-
-
-
+                         /* perfect place section  */
+    .perfect-place{
+        flex-direction: column;
+        padding: 10px;
+        gap: 15px;
+        margin: 10px 0;
+    }
+    .perfect-place-container{
+        width: 90%;
+    }
+    .perfect-place-container h1{
+        font-size: 1.25rem;
+        line-height: 30px;
+    }
+    .perfect-place-container ul li{
+        font-weight: 400px;
+        padding-right: 10px;
+    }
+    .perfect-place-video{
+        width: 95%;
+    }
+    .perfect-place-video video{
+        width: 100%;
+    }
+    .perfect-place-container h1{
+        margin: 0;
+    }
+                         /* newsletter section  */
+    .newsletter-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .newsletter-box input{
+        width: 93%;
+    }
+    .newsletter-box button{
+        width: 100%;
+    }
+    .newsletter-box{
+        width: 85%;
+        padding: 20px;
+    }
+    .newsletter-box-image{
+        width: 100%;
+    }
+    .save-up{
+        width: 50%;
+        height: 50px;
+        padding-top: 5px;
+    }
+    .save-up p{
+        font-size: 1rem;
+    }
+    .save-up h5{
+        font-size: 1rem;
+    }
+                      /* footer section responsive */
+    footer{
+        padding: 30px;
+    margin-top: 30px;
+    width: 80%;
+    }
+    .footer-header{
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-header h1{
+        font-size: 1.25rem;
+    }
+    .footer-header img{
+        width: 20%;
+    }
+    .footer-content p{
+        margin-top: 20px;
+    }
+    .footer-logos .fa-brands{
+        width: 15%;
+        margin-bottom: 40px;
+    }
 }

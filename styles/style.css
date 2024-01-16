@@ -2,16 +2,15 @@
                         /* shared styles  */
 *{
     font-family: 'Mulish', sans-serif;
-    
-    /* border: 2px solid teal; */
     margin: 0 auto;
 }
 .banner, main{
     max-width: 1620px;
 }
 .primary-description{
-    color: wheat;
-    font-weight: 400;
+  color: #131318;
+  font-size: 1.25rem;
+    font-weight: 600;
     /* width: 643px; */
     line-height: 26px; /
 }
@@ -21,81 +20,59 @@
                              /* header styles  */
 .nav-title{
     display: flex;
-    /* border: 2px solid tomato; */
-    /* margin: 20px auto; */
-    justify-content: center;
-    align-items:center;
-   gap: 20px;
-   
-    
-    
-}
-.nav-title-header{
-    color: #131318;
-font-size: 2.25rem;
-font-weight: 800;
-}
-.nav-travel{
-    color: #FF5400;
-}
-.nav-anchor a{
-    text-decoration: none;
-    color: #424247;
-    font-size: 1.25rem;
-    margin-left: 50px;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 80px;
-}
-.icons{
-    display: none;
-}
-.nav-title img{
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                             /* banner styles  */
+       justify-content: center;
+       align-items:center;
+      gap: 20px;   
+   }
+   .nav-title-header{
+       color: #131318;
+   font-size: 2.25rem;
+   font-weight: 800;
+   }
+   .nav-travel{
+       color: #FF5400;
+   }
+   .nav-anchor a{
+       text-decoration: none;
+       color: #424247;
+       font-size: 1.25rem;
+       margin-left: 50px;
+   }
+   nav{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin: 20px 80px;
+   }
+   .icons{
+       display: none;
+   }
+   .nav-title img{
+       width: 100%;
+   }                                                  
+                              /* banner styles  */
 .banner{
     border-radius: 16px;
-    /* max-height: 100%; */
     background-image: url('../Images/banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
   width: 100%;
   height: 100%;
- 
+  border-radius: 16px;
+  border-radius: 16px;
 }
 .banner-container{
-   /* width: 100%; */
     height: 100%;
     margin: auto 0;
-    /* border: 2px solid tomato; */
 padding: 180px 300px;
     text-align: center;
-   /* align-items: center; */
 }
 .banner-container .banner-title{
     margin-bottom: 35px;
     font-size: 4rem;
     font-weight: 800;
-    color: #FFF;
+   color: #424247;
 }
 .input-feild{
     display: flex;
@@ -111,10 +88,7 @@ padding: 180px 300px;
     width: 200px;
     height: 52px;
    padding-left: 10px;
-   /* margin-right: 20px; */
    border-radius: 8px;
-   /* background-color: #FFF; */
-
 }
 button{
     width: 200px;
@@ -126,22 +100,13 @@ border-color: #FF5400;
 font-size: 1.25rem;
 font-weight: 800;
 }
-/* .input-where{
-    width: 174px;
-height: 52px;
-flex-shrink: 0;
-} */
                             /* <!-- our popular tours section styles --> */
 .popular-tours{
     margin-top: 50px;
     display: flex;
-    /* border: 2px solid tan; */
-    /* gap: 10%; */
-   
 }
 .popular-tours-text{
     width: 50%;
-    /* border: 2px solid tomato; */
     align-items: center;
     padding-right: 100px;
 }
@@ -149,7 +114,6 @@ flex-shrink: 0;
     color: #131318;
     font-size: 2.75rem;
     font-weight: 800;
-   
 }
 .primary-descriptions{
     color: rgba(19, 19, 24, 0.70);
@@ -158,26 +122,19 @@ flex-shrink: 0;
    margin: 20px 0;
    width: 600px;
 }
-
-
-
 .popular-tours-image{
     width: 50%;
     height: 100%;
-    /* border: 2px solid tomato; */
-   /* text-align: end; */
 }
 .popular-tours-image img{
     width: 100%;
     object-fit: cover;
     height: 100%;
 }
-                      /* choose your destination section styles  */
+                     /* choose your destination section styles  */
 .destination{
     margin-top: 100px;
-    /* border: 2px solid turquoise; */
 }
-
 .destination-header{
      text-align: center;
 }
@@ -198,7 +155,6 @@ flex-shrink: 0;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    /* border: 2px solid tomato; */
     gap: 20px;
 }
 .destination-image img{
@@ -209,7 +165,6 @@ flex-shrink: 0;
 }
 .destination-images-1{
     width: 100%;
-    /* border: 2px solid tan; */
     grid-column: 1/span 6;
     grid-row: 1/span 1;
 position: relative;
@@ -221,7 +176,6 @@ position: relative;
     color: #FFF;
 }
 .destination-images-2{
-    /* border: 2px solid firebrick; */
     grid-column: 7/span 6;
     grid-row: 1/span 1;
 position: relative;
@@ -233,7 +187,6 @@ position: relative;
     color: #FFF;
 }
 .destination-images-3{
-    /* width: 100%; */
     grid-column: 1/span 4;
     grid-row: 2/span 1;
     position: relative;
@@ -268,7 +221,6 @@ position: relative;
     color: #FFF;
 }
 .destination-images-6{
-    /* width: 100%; */
     grid-column: 1/span 5;
     grid-row: 3/span 1;
     position: relative;
@@ -290,7 +242,7 @@ position: relative;
     left: 40%;
     color: #FFF;
 }
-             /* why choose us section style  */
+                      /* why choose us section style  */
 .services{
     margin-top: 100px;
 }            
@@ -356,9 +308,7 @@ grid-column: 4/span 6 ;
     font-weight: 800;
     margin: 20px 0;
 }
-        /* /* Deals & Discounts section style  * */
-
-
+                   /* /* Deals & Discounts section style  * */
 .discounts-heading{
     text-align: center;
     margin: 100px auto;
@@ -370,12 +320,6 @@ font-size: 2.5rem;
 font-weight: 800;
 margin-bottom: 30px;
 }
-
-
-
-
-
-
 .discounts-container-1{
     background-image: url('../Images/discounts-1.png');
     background-repeat: no-repeat;
@@ -411,7 +355,6 @@ margin-bottom: 30px;
 .discounts-1-content-header .fa-solid{
 color: #FF5400;
 margin-left: 30px;
-
 }
 .discounts-1-content-title{
     margin-left: 30px;
@@ -428,8 +371,6 @@ font-size: 1.5rem;
 font-weight: 800;
 padding: 30px 0;
 }
-
-
 .discounts-container-2{
     background-image: url('../Images/Group\ 40.png');
     background-repeat: no-repeat;
@@ -459,7 +400,6 @@ padding: 30px 0;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px); 
 }
-
 .discounts-2-content-header{
     margin-right: 50px;
 }
@@ -483,8 +423,6 @@ font-size: 1.5rem;
 font-weight: 800;
 padding: 30px 0;
 }
-
-
 .discounts-container-3{
     background-image: url('../Images/discounts-1.png');
     background-repeat: no-repeat;
@@ -520,7 +458,6 @@ padding: 30px 0;
 .discounts-3-content-header .fa-solid{
 color: #FF5400;
 margin-left: 30px;
-
 }
 .discounts-3-content-title{
     margin-left: 30px;
@@ -537,8 +474,6 @@ font-size: 1.5rem;
 font-weight: 800;
 padding: 30px 0;
 }
-
-
                               /* perfect place section styles  */
 .perfect-place{
     margin: 50px 0;
@@ -546,9 +481,7 @@ padding: 30px 0;
     gap: 50px;
 }                              
 .perfect-place-container{
-    width: 50%;
-    /* border: 2px solid teal; */
-   
+    width: 50%; 
 }
 .perfect-place-container h1{
     margin-bottom: 30px;
@@ -566,14 +499,12 @@ line-height: 26px;
 }
 .perfect-place-video{
     width: 50%;
-   
-    /* border: 2px solid teal; */
 }
 .perfect-place-video video{
     width: 100%;
     border-radius: 10px;
 }
-                        /* newsletter section  */
+                           /* newsletter section  */
 .newsletter-container{
     display: flex;
     gap: 20px;
@@ -595,17 +526,14 @@ line-height: 26px;
 }
 .newsletter-box input{
     margin-top: 40px;
-    /* width: 550px; */
     width: 93%;
 height: 52px;
 border-radius: 8px;
 background: rgba(19, 19, 24, 0.05);
 padding-left: 20px;
 color: rgba(19, 19, 24, 0.30);
-
 }
 .newsletter-box button{
-    /* width: 580px; */
     width: 98%;
     height: 52px;
     margin-top: 40px;
@@ -615,7 +543,6 @@ color: rgba(19, 19, 24, 0.30);
     color: #FFF;
 }
 .newsletter-box-image{
-    /* border: 2px solid turquoise; */
     width: 70%;
     height: 100%;
     position: relative;
@@ -630,7 +557,6 @@ height: 100px;
 transform: rotate(-19.628deg);
 border-radius: 16px;
 background: #FF5400;
-/* display: flex; */
 padding-top: 20px;
 text-align: center;
 position: absolute;
@@ -647,21 +573,17 @@ font-weight: 400;
 font-size: 2rem;
 font-weight: 800;
 }
-                        /* footer styles   */
+                          /* footer styles   */
 footer{
     background-color: rgba(19, 19, 24, 0.05);
     padding: 100px 500px;
     margin-top: 100px;
 }
 .footer-header{
-    /* border: 2px solid tomato; */
     display: flex;
     width: 35%;
     font-size: 1.25rem;
     justify-content: center;
-
-   /* margin-top: 110px; */
-
 }
 .footer-content{
     text-align: center;
